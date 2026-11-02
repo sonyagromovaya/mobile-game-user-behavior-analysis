@@ -2,18 +2,15 @@
 
 A small data analysis project using a dataset of 500 mobile game users. I looked at sessions, payments, and time spent playing to understand typical behavior and identify unusual payments.
 
-## Dataset
+## Tools
+- Google Sheets
+- Excel
+- Python (Pandas, Matplotlib)
 
-The dataset was provided as part of a data analytics course exercise. It contains 500 records and four columns: `user_id`, `sessions`, `payments`, and `game_time_minutes`. Payment values are reported in dataset units; no currency is specified.
+## Analysis
+I used descriptive statistics and the IQR method to identify outliers in user payments. I also created charts to explore the data distribution.
 
 **Google Sheets workbook:** [View the completed course analysis](https://docs.google.com/spreadsheets/d/1v0bAnxpVylFp9zDvtibdfQbwZamMj1DZoMII2-TYiLM/edit?usp=sharing)
-
-## What I analyzed
-
-- Basic descriptive statistics: mean, median, mode, standard deviation, and quartiles
-- Payment outliers using the 1.5 × IQR rule
-- How the average payment changes when outliers are excluded
-- The distribution of payments and sessions
 
 ## Results
 
